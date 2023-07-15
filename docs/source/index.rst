@@ -1,10 +1,7 @@
 Добро пожаловать в документацию!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+В данном руководстве вы найдете детальную информацию по интеграционным подключениям, которые предоставляет платформа Раппорто. После заключения договора с компанией Раппорто ответственный сотрудник вышлет вам данные, необходимые для подключения к сервису.
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
