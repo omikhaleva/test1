@@ -15,5 +15,6 @@ Contents
 
 .. toctree::
 
+   http
    usage
    api
