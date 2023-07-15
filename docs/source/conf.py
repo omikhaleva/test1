@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'Документация'
+project = 'Documentation'
 copyright = '2021, Загрузка'
 author = 'Загрузка'
 
