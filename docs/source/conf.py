@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Документация'
+copyright = '2021, Загрузка'
+author = 'Загрузка'
 
 release = '0.1'
 version = '0.1.0'
@@ -29,7 +29,7 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 
-html_theme = 'agogo'
+html_theme = 'sphinxdoc'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
