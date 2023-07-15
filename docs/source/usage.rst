@@ -6,7 +6,7 @@ Usage
 Installation
 ------------
 
-Используй хоть что-то, first install it using pip:
+Используй хоть что-то, инсталлируй:
 
 .. code-block:: console
 
@@ -15,7 +15,7 @@ Installation
 Creating recipes
 ----------------
 
-To retrieve a list of random ingredients,
+Подумай о будущем, учись,
 you can use the ``lumache.get_random_ingredients()`` function:
 
 .. autofunction:: lumache.get_random_ingredients
