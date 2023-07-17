@@ -4,26 +4,11 @@
 Отправка сообщений
 --------------------
 
-.. code-block:: json
-	
-  https://integrationapi.net/rest/Hlr/SendBulk?SessionID=<Идентификатор сессии>&DestinationAddresses=<Номер получателя>&Validity=<Время жизни сообщения>
-
 SMS
 ~~~
 
-.. code-block:: python
-   :emphasize-lines: 1-3,5
-
-  def some_function():
-       interesting = False
-       print 'This line is highlighted.'
-       print 'This one is not...'
-       print '...but this one is.'
-
-Например
-
  .. code-block:: json
-   :emphasize-lines: 1-3,5
+   :emphasize-lines: 1-11
 
    {
    "login":"ВАШ_ЛОГИН",
