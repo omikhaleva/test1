@@ -15,8 +15,8 @@ SMS
        print 'This one is not...'
        print '...but this one is.'
 
-
  .. code-block:: json
+   :emphasize-lines: 1-3,5
 
    {
    "login":"ВАШ_ЛОГИН",
