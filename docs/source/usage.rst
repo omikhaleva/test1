@@ -3,7 +3,7 @@
 
 .. _installation:
 
-Installation
+Введение 1
 ------------
 
 Используй хоть что-то, инсталлируй:
@@ -12,7 +12,7 @@ Installation
 
    (.venv) $ pip install lumache
 
-Creating recipes
+Введение 2
 ----------------
 
 Подумай о будущем, учись,
