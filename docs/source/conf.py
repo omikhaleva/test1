@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'Documentation'
-copyright = '2021, Загрузка'
+copyright = '2023, Загрузка'
 author = 'Загрузка'
 
 release = '0.1'
