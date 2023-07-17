@@ -15,7 +15,10 @@ SMS
        print 'This one is not...'
        print '...but this one is.'
 
+
  .. literalinclude:: java.rst
+
+ .. literalinclude:: highlighted.html
 
        
 Параметры сообщений
