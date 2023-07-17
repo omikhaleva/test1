@@ -1,5 +1,5 @@
 Описание HTTP
-===
+=============
 
 .. autosummary::
    :toctree: generated
