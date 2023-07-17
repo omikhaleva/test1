@@ -4,7 +4,7 @@
 
 project = 'Documentation'
 copyright = '2023, Загрузка'
-author = 'Загрузка'
+author = 'Olga'
 
 release = '0.1'
 version = '0.1.0'
@@ -29,11 +29,11 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 
-html_theme = 'alabaster'
+html_theme = 'classic'
 
 html_theme_options = {
-    "rightsidebar": "true",
-    "relbarbgcolor": "black"
+    'rightsidebar': 'true',
+    'relbarbgcolor': 'black'
 }
 
 # -- Options for EPUB output
