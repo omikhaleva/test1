@@ -11,7 +11,7 @@
 
 .. toctree::
    :maxdepth: 3
-   :caption: Описание API
+   :caption: Личный кабинет
    :hidden:
 
    http
@@ -21,7 +21,7 @@
 
 .. toctree::
    :maxdepth: 3
-   :caption: Личный кабинет
+   :caption: Описание API
    :hidden:
 
    oleg
