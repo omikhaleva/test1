@@ -31,10 +31,6 @@ templates_path = ['_templates']
 
 html_theme = 'classic'
 
-html_theme_options = {
-    'rightsidebar': 'true',
-    'relbarbgcolor': 'black'
-}
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
