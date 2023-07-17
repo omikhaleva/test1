@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'Documentation'
-copyright = '2023, Загрузка'
+copyright = u'2023, Загрузка'
 author = 'Olga'
 
 release = '0.1'
@@ -29,7 +29,7 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 
-html_theme = 'classic'
+html_theme = 'sphinx_rtd_theme'
 
 
 # -- Options for EPUB output
