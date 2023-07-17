@@ -16,9 +16,20 @@ SMS
        print '...but this one is.'
 
 
- .. literalinclude:: java.rst
+ .. code-block:: json
 
- .. literalinclude:: highlighted.html
+   {
+   "login":"ВАШ_ЛОГИН",
+   "password":"ВАШ_ПАРОЛЬ",
+   "useTimeDiff":true,
+   "id":"8770630",
+   "shortenLinks":false,
+   "scheduleInfo":{
+   "timeBegin":"10:00",
+   "timeEnd":"12:00",
+   "weekdaysSchedule":"123"
+   }
+
 
        
 Параметры сообщений
