@@ -29,11 +29,11 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 
-html_theme = 'nature'
+html_theme = 'alabaster'
 
 html_theme_options = {
-    'rightsidebar': 'true',
-    'relbarbgcolor': 'black'
+    "rightsidebar": "true",
+    "relbarbgcolor": "black"
 }
 
 # -- Options for EPUB output
