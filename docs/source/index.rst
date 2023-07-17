@@ -21,3 +21,14 @@
    api
    oleg
    alena
+
+.. toctree::
+   :maxdepth: 3
+   :caption: Личный кабинет
+   :hidden:
+
+   http
+   usage
+   api
+   oleg
+   alena
