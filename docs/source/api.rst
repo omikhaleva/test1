@@ -3,6 +3,11 @@
 
 Отправка сообщений
 --------------------
+
+.. code-block:: json
+	
+  https://integrationapi.net/rest/Hlr/SendBulk?SessionID=<Идентификатор сессии>&DestinationAddresses=<Номер получателя>&Validity=<Время жизни сообщения>
+
 SMS
 ~~~
 
