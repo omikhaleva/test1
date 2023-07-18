@@ -8,7 +8,6 @@ SMS
 ~~~
 
  .. code-block:: json
-   :emphasize-lines: 
    :linenos:
 
    {
