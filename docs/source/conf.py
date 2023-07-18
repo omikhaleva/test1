@@ -29,7 +29,7 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 
-html_theme = 'sphinxdoc'
+html_theme = "alabaster"
 
 
 # -- Options for EPUB output
