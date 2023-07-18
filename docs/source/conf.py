@@ -29,7 +29,7 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 
-html_theme = "bizstyle"
+html_theme = "basic"
 
 
 # -- Options for EPUB output
