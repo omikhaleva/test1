@@ -35,6 +35,9 @@ SMS
      <b>hello world!</b>
 
 
+Вкладки
+-------
+
   .. tabs::
 
      .. tab:: Sphinx
