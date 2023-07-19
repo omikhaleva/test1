@@ -17,6 +17,7 @@
    http
    usage
    api
+   2
    
 
 .. toctree::
