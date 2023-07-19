@@ -46,11 +46,12 @@
 
 Вставка изображений
 --------------------
+1686752155890.jpg
 
 
 https://github.com/users/Bazakina/projects/3?pane=issue&itemId=33665396
 
-.. figure::![Image](https://github.com/Bazakina/Aliona-s/assets/139766489/5df755a7-a059-4f05-b1e2-412bf715820b)
+![фоточка](https://github.com/olm313/test1/blob/main/1686752155890.jpg)
 
        :scale: 300 %
        :align: center
@@ -59,3 +60,12 @@ https://github.com/users/Bazakina/projects/3?pane=issue&itemId=33665396
        Подпись изображения
 
        Легенда изображения.
+
+
+
+
+Фоточка 
+-------
+
+
+![Иллюстрация к проекту](https://github.com/olm313/test1/blob/main/1686752155890.jpg)
