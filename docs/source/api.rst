@@ -27,15 +27,13 @@ SMS
 
   .. tabs::
 
-     .. tab:: Sphinx
+    .. tab:: Sphinx
 
-        If your project uses Sphinx,
-        we offer a special builder optimized for Sphinx projects.
+      Test 1
 
-     .. tab:: MkDocs
+    .. tab:: MkDocs
 
-        If your project uses MkDocs,
-        we offer a special builder optimized for MkDocs projects. 
+      Test 2      
 
        
 Параметры сообщений
