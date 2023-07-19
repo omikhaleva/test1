@@ -27,13 +27,13 @@ SMS
 
 .. tabs::
 
-  .. tab:: Sphinx
+    .. tab:: Sphinx
 
-    Test 1
+        Test 1
 
-  .. tab:: MkDocs
+    .. tab:: MkDocs
 
-    Test 2      
+        Test 2      
 
        
 Параметры сообщений
