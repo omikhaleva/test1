@@ -46,7 +46,6 @@
 
 Вставка изображений
 --------------------
-1686752155890.jpg
 
 .. figure:: _static/1686752155890.jpg
    :scale: 100 %
@@ -57,6 +56,7 @@
    
    Портрет
 
+1686752155890.jpg
 
 https://github.com/users/Bazakina/projects/3?pane=issue&itemId=33665396
 
