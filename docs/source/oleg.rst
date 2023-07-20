@@ -111,8 +111,7 @@ SMPP-интеграция позволяет Партнёрам отправля
    % endfor %}
 Текст после комментария в коде
 
-Посмотрим на исходный код
-::
+Посмотрим на исходный код: ::
 
    <!DOCTYPE html>
       <html>
@@ -130,4 +129,18 @@ SMPP-интеграция позволяет Партнёрам отправля
          {{ a_variable }}
       </body>
       </html>
+
+Посмотрим на исходный код Python:
+
+.. code-block:: python
+   :linenos:
+   :emphasize-lines: 1-3,5
+
+   def some_function():
+   interesting = False
+   print 'This line is highlighted.'
+   print 'This one is not...'
+   print '...but this one is.'
+
+
 
