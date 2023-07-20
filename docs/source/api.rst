@@ -32,7 +32,7 @@ SMS
         Test text 1
 
 
-    .. tab:: Test 1
+    .. tab:: Test 2
 
         Test text 2   
 
