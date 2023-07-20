@@ -48,6 +48,15 @@
 --------------------
 1686752155890.jpg
 
+.. figure:: _static/1686752155890.jpg
+   :scale: 100 %
+   :align: center
+   :alt: Альтернативный текст: Портрет
+
+   Рисунок 1.
+   
+   Портрет
+
 
 https://github.com/users/Bazakina/projects/3?pane=issue&itemId=33665396
 
