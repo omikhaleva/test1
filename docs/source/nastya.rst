@@ -98,7 +98,7 @@ SMS
 
     .. tab:: SMS
 
-       .. {
+       :: {
           "login":"ВАШ_ЛОГИН",
           "password":"ВАШ_ПАРОЛЬ",
           "useTimeDiff":true,
@@ -119,3 +119,43 @@ SMS
              }
           }
         }
+
+Viber
+~~~~~
+
+.. tabs::
+
+    .. tab:: Viber-сообщение (текст + изображение + кнопка)
+       :: {
+            "login":"ВАШ_ЛОГИН",
+            "password":"ВАШ_ПАРОЛЬ",
+            "useTimeDiff":false,
+            "id":"8770100",
+            "scheduleInfo":
+            {
+               "timeBegin":"10:00",
+               "timeEnd":"20:00",
+               "weekdaysSchedule":"12345"
+            },
+            "destAddr":"Номер_Абонента",
+            "message":
+            {
+               "type":"VIBER",
+               "data":
+               {
+                  "instantContent":
+                  {
+                     "type":"BUTTON",
+                     "data":
+                     {
+                        "text":"VIBERMESS",
+                        "imageURL":"https://example.ru/image",
+                        "caption":"ПЕРЕЙТИ",
+                        "action":"https:// example.ru/image"
+                     }
+                  },
+                  "serviceNumber":"НОМЕР_ОТПРАВИТЕЛЯ",
+                  "ttl":1
+               }
+            }
+      }
