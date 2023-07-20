@@ -46,3 +46,4 @@ SMPP-интеграция позволяет Партнёрам отправля
 
 ![Пример 1](docs/source/_static/pic_1.png)
 
+![Пример 1](docs/source/_static/pic_1.png)
