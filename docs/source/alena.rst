@@ -69,7 +69,14 @@ A clickable image:
    :height: 200
    :width: 200
 
+https://github.com/olm313/test1/blob/main/docs/source/_static/pic_1.png
 
+A clickable image:
+
+.. image:: https://github.com/olm313/test1/blob/main/docs/source/_static/pic_1.png
+   :target: https://www.google.com/
+   :height: 200
+   :width: 200
 
 
 
