@@ -90,3 +90,97 @@ SMPP-интеграция позволяет Партнёрам отправля
       .. tab:: Вложенные вкладки
       
          Тут будут вложенные вкладки.
+
+         
+         
+.. tabs::
+
+    .. tab:: SMS
+
+      {
+        "login":"ВАШ_ЛОГИН",
+        "password":"ВАШ_ПАРОЛЬ",
+        "useTimeDiff":true,
+        "id":"8770630",
+        "shortenLinks":false,
+        "scheduleInfo":{
+          "timeBegin":"10:00",
+          "timeEnd":"12:00",
+          "weekdaysSchedule":"123"
+        },
+        "destAddr":"Номер_Абонента",
+        "message":{
+          "type":"SMS",
+          "data":{
+            "text":"Текст. Follow link: <http://verylongurl.com/very/long/url>",
+            "serviceNumber":"НОМЕР_ОТПРАВИТЕЛЯ",
+            "ttl":10
+          }
+        }
+      }
+
+
+    .. tab:: Viber-сообщение (текст + изображение + кнопка)
+
+      Поддерживаются следующие варианты Viber-сообщений:
+
+      * только текст (в InstantContent задаётся атрибут type = TEXT);
+
+      * только изображение (в InstantContent задаётся атрибут type = IMAGE_URL);
+
+      * текст, изображение, кнопка для перехода (в InstantContent задаётся атрибут type = BUTTON с текстом сообщения, адресом изображения, наименованием кнопки и URL для перехода).
+
+      {
+         "login":"ВАШ_ЛОГИН",
+         "password":"ВАШ_ПАРОЛЬ",
+         "useTimeDiff":false,
+         "id":"8770100",
+         "scheduleInfo":
+         {
+            "timeBegin":"10:00",
+            "timeEnd":"20:00",
+            "weekdaysSchedule":"12345"
+         },
+         "destAddr":"Номер_Абонента",
+         "message":
+         {
+            "type":"VIBER",
+            "data":
+            {
+               "instantContent":
+               {
+                  "type":"BUTTON",
+                  "data":
+                  {
+                     "text":"VIBERMESS",
+                     "imageURL":"https://example.ru/image",
+                     "caption":"ПЕРЕЙТИ",
+                     "action":"https:// example.ru/image"
+                  }
+               },
+               "serviceNumber":"НОМЕР_ОТПРАВИТЕЛЯ",
+               "ttl":1
+            }
+         }
+      }
+
+Вставка картинки
+----------------
+.. figure:: _static/пуш.PNG
+       :scale: 80 %
+       :align: center
+       :alt: Альтернативный текст
+
+       Подпись изображения
+
+Картинка 2
+
+.. figure:: _static/icon.png
+       :scale: 50 %
+       :align: center
+
+       Иконка
+
+Вставка изображения между слов |иконка| осуществяется с помощью функции автозамены.
+
+.. |иконка| image:: _static/icon.ico
