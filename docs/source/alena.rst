@@ -79,4 +79,9 @@ A clickable image:
    :width: 200
 
 
+Изображение-ссылка
+
+.. image:: https://github.com/olm313/test1/blob/main/docs/source/_static/pic_1.png
+  :target: https://google.com
+
 
