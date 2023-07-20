@@ -111,3 +111,23 @@ SMPP-интеграция позволяет Партнёрам отправля
    % endfor %}
 Текст после комментария в коде
 
+Посмотрим на исходный код
+::
+
+   <!DOCTYPE html>
+      <html>
+         <head>
+            <title>Мой сайт</title>
+         </head>
+         <body>
+            <ul id="navigation">
+            {% for item in navigation %}
+                <li><a href="{{ item.href }}">{{ item.caption }}</a></li>
+            {% endfor %}
+            </ul>
+
+         <h1>Моя статья</h1>
+         {{ a_variable }}
+      </body>
+      </html>
+
