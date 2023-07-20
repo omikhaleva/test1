@@ -12,13 +12,13 @@ version = '0.1.0'
 # -- General configuration
 
 extensions = [
-# -- 'sphinx.ext.duration',
-"sphinx.ext.doctest",
+'sphinx.ext.duration',
+'sphinx.ext.doctest',
 'sphinx.ext.autodoc',
 'sphinx.ext.autosummary',
 'sphinx.ext.intersphinx',
-"sphinx_tabs.tabs",
-"sphinx.ext.imgconverter",
+'sphinx_tabs.tabs',
+'sphinx.ext.imgconverter'
 ]
 
 intersphinx_mapping = {
@@ -31,10 +31,8 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 
-html_theme = "sphinx_rtd_theme
+html_theme = "sphinx_rtd_theme"
 
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
-
-sphinx_tabs_valid_builders = ['linkcheck']
