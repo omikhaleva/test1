@@ -94,6 +94,14 @@ A clickable image:
    :alt: alternate text
    :align: right
 
+Изображение по доке Sphinx для локальной ветки
+.. image:: С:\Users\abazakina\docs\docs\_static\bear.jpg
+   :height: 100px
+   :width: 200 px
+   :scale: 50 %
+   :alt: alternate text
+   :align: right
+
 Таблицы
 ========
 
