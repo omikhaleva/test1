@@ -84,6 +84,16 @@ A clickable image:
 .. image:: https://github.com/olm313/test1/blob/main/docs/source/_static/pic_1.png
   :target: https://google.com
 
+
+Изображение по доке Sphinx
+
+.. image:: https://github.com/olm313/test1/blob/main/docs/source/_static/pic_1.png
+   :height: 100px
+   :width: 200 px
+   :scale: 50 %
+   :alt: alternate text
+   :align: right
+
 Таблицы
 ========
 
